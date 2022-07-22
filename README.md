@@ -39,7 +39,7 @@ You can call HTTP requests in the API to serve JSON resources to an API client o
 <br>
 	
 * has_secure_token
-<p>The routes of update and delete for both user and password are protected with has_secure_token Rails method. The HTTP request has to have a header with the "auth_token" in it for checking user permission.</p>
+<p>The routes of update and delete for both user and password are protected with has_secure_token Rails attribute in the model. The HTTP request has to have a header with the "auth_token" in it for checking user permission.</p>
 
 <br><br>
 
