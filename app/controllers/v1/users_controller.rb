@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class V1::UsersController < ApplicationController
   skip_before_action :authenticate_request, only: %i[create index]
 
   # GET /users
@@ -42,6 +42,6 @@ class UsersController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def user_params
-    params.permit(:name, :email, :password, :token)
+    params.permit(:name, :email, :password)
   end
 end
