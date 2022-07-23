@@ -50,7 +50,7 @@ You can clone this app:
 git clone git@github.com:gessicahug/user-api-app.git
 ```
 ```
-cd user-api-app
+cd user-api-app-2
 ```
 ```
 bundle install
